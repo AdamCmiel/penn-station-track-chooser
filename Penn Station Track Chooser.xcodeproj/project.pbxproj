@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7726761E2468561F0064AE0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7726761D2468561F0064AE0C /* AppDelegate.swift */; };
+		772676202468561F0064AE0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7726761F2468561F0064AE0C /* SceneDelegate.swift */; };
+		772676222468561F0064AE0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772676212468561F0064AE0C /* ContentView.swift */; };
+		77267624246856220064AE0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77267623246856220064AE0C /* Assets.xcassets */; };
+		77267627246856220064AE0C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77267626246856220064AE0C /* Preview Assets.xcassets */; };
+		7726762A246856220064AE0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77267628246856220064AE0C /* LaunchScreen.storyboard */; };
+		77267635246856220064AE0C /* Penn_Station_Track_ChooserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77267634246856220064AE0C /* Penn_Station_Track_ChooserTests.swift */; };
+		77267640246856220064AE0C /* Penn_Station_Track_ChooserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7726763F246856220064AE0C /* Penn_Station_Track_ChooserUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77267631246856220064AE0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 772676122468561F0064AE0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 772676192468561F0064AE0C;
+			remoteInfo = "Penn Station Track Chooser";
+		};
+		7726763C246856220064AE0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 772676122468561F0064AE0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 772676192468561F0064AE0C;
+			remoteInfo = "Penn Station Track Chooser";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7726761A2468561F0064AE0C /* Penn Station Track Chooser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Penn Station Track Chooser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7726761D2468561F0064AE0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7726761F2468561F0064AE0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		772676212468561F0064AE0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		77267623246856220064AE0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77267626246856220064AE0C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		77267629246856220064AE0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7726762B246856220064AE0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77267630246856220064AE0C /* Penn Station Track ChooserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Penn Station Track ChooserTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77267634246856220064AE0C /* Penn_Station_Track_ChooserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Penn_Station_Track_ChooserTests.swift; sourceTree = "<group>"; };
+		77267636246856220064AE0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7726763B246856220064AE0C /* Penn Station Track ChooserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Penn Station Track ChooserUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7726763F246856220064AE0C /* Penn_Station_Track_ChooserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Penn_Station_Track_ChooserUITests.swift; sourceTree = "<group>"; };
+		77267641246856220064AE0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		772676172468561F0064AE0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7726762D246856220064AE0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77267638246856220064AE0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		772676112468561F0064AE0C = {
+			isa = PBXGroup;
+			children = (
+				7726761C2468561F0064AE0C /* Penn Station Track Chooser */,
+				77267633246856220064AE0C /* Penn Station Track ChooserTests */,
+				7726763E246856220064AE0C /* Penn Station Track ChooserUITests */,
+				7726761B2468561F0064AE0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7726761B2468561F0064AE0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7726761A2468561F0064AE0C /* Penn Station Track Chooser.app */,
+				77267630246856220064AE0C /* Penn Station Track ChooserTests.xctest */,
+				7726763B246856220064AE0C /* Penn Station Track ChooserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7726761C2468561F0064AE0C /* Penn Station Track Chooser */ = {
+			isa = PBXGroup;
+			children = (
+				7726761D2468561F0064AE0C /* AppDelegate.swift */,
+				7726761F2468561F0064AE0C /* SceneDelegate.swift */,
+				772676212468561F0064AE0C /* ContentView.swift */,
+				77267623246856220064AE0C /* Assets.xcassets */,
+				77267628246856220064AE0C /* LaunchScreen.storyboard */,
+				7726762B246856220064AE0C /* Info.plist */,
+				77267625246856220064AE0C /* Preview Content */,
+			);
+			path = "Penn Station Track Chooser";
+			sourceTree = "<group>";
+		};
+		77267625246856220064AE0C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				77267626246856220064AE0C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		77267633246856220064AE0C /* Penn Station Track ChooserTests */ = {
+			isa = PBXGroup;
+			children = (
+				77267634246856220064AE0C /* Penn_Station_Track_ChooserTests.swift */,
+				77267636246856220064AE0C /* Info.plist */,
+			);
+			path = "Penn Station Track ChooserTests";
+			sourceTree = "<group>";
+		};
+		7726763E246856220064AE0C /* Penn Station Track ChooserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7726763F246856220064AE0C /* Penn_Station_Track_ChooserUITests.swift */,
+				77267641246856220064AE0C /* Info.plist */,
+			);
+			path = "Penn Station Track ChooserUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		772676192468561F0064AE0C /* Penn Station Track Chooser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77267644246856220064AE0C /* Build configuration list for PBXNativeTarget "Penn Station Track Chooser" */;
+			buildPhases = (
+				772676162468561F0064AE0C /* Sources */,
+				772676172468561F0064AE0C /* Frameworks */,
+				772676182468561F0064AE0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Penn Station Track Chooser";
+			productName = "Penn Station Track Chooser";
+			productReference = 7726761A2468561F0064AE0C /* Penn Station Track Chooser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7726762F246856220064AE0C /* Penn Station Track ChooserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77267647246856220064AE0C /* Build configuration list for PBXNativeTarget "Penn Station Track ChooserTests" */;
+			buildPhases = (
+				7726762C246856220064AE0C /* Sources */,
+				7726762D246856220064AE0C /* Frameworks */,
+				7726762E246856220064AE0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77267632246856220064AE0C /* PBXTargetDependency */,
+			);
+			name = "Penn Station Track ChooserTests";
+			productName = "Penn Station Track ChooserTests";
+			productReference = 77267630246856220064AE0C /* Penn Station Track ChooserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7726763A246856220064AE0C /* Penn Station Track ChooserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7726764A246856220064AE0C /* Build configuration list for PBXNativeTarget "Penn Station Track ChooserUITests" */;
+			buildPhases = (
+				77267637246856220064AE0C /* Sources */,
+				77267638246856220064AE0C /* Frameworks */,
+				77267639246856220064AE0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7726763D246856220064AE0C /* PBXTargetDependency */,
+			);
+			name = "Penn Station Track ChooserUITests";
+			productName = "Penn Station Track ChooserUITests";
+			productReference = 7726763B246856220064AE0C /* Penn Station Track ChooserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		772676122468561F0064AE0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Adam Cmiel";
+				TargetAttributes = {
+					772676192468561F0064AE0C = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					7726762F246856220064AE0C = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 772676192468561F0064AE0C;
+					};
+					7726763A246856220064AE0C = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 772676192468561F0064AE0C;
+					};
+				};
+			};
+			buildConfigurationList = 772676152468561F0064AE0C /* Build configuration list for PBXProject "Penn Station Track Chooser" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 772676112468561F0064AE0C;
+			productRefGroup = 7726761B2468561F0064AE0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				772676192468561F0064AE0C /* Penn Station Track Chooser */,
+				7726762F246856220064AE0C /* Penn Station Track ChooserTests */,
+				7726763A246856220064AE0C /* Penn Station Track ChooserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		772676182468561F0064AE0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7726762A246856220064AE0C /* LaunchScreen.storyboard in Resources */,
+				77267627246856220064AE0C /* Preview Assets.xcassets in Resources */,
+				77267624246856220064AE0C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7726762E246856220064AE0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77267639246856220064AE0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		772676162468561F0064AE0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7726761E2468561F0064AE0C /* AppDelegate.swift in Sources */,
+				772676202468561F0064AE0C /* SceneDelegate.swift in Sources */,
+				772676222468561F0064AE0C /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7726762C246856220064AE0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77267635246856220064AE0C /* Penn_Station_Track_ChooserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77267637246856220064AE0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77267640246856220064AE0C /* Penn_Station_Track_ChooserUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77267632246856220064AE0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 772676192468561F0064AE0C /* Penn Station Track Chooser */;
+			targetProxy = 77267631246856220064AE0C /* PBXContainerItemProxy */;
+		};
+		7726763D246856220064AE0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 772676192468561F0064AE0C /* Penn Station Track Chooser */;
+			targetProxy = 7726763C246856220064AE0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		77267628246856220064AE0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77267629246856220064AE0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77267642246856220064AE0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77267643246856220064AE0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77267645246856220064AE0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Penn Station Track Chooser/Preview Content\"";
+				DEVELOPMENT_TEAM = 45JU49X5G4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Penn Station Track Chooser/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ad.mc.example.Penn-Station-Track-Chooser";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77267646246856220064AE0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Penn Station Track Chooser/Preview Content\"";
+				DEVELOPMENT_TEAM = 45JU49X5G4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Penn Station Track Chooser/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ad.mc.example.Penn-Station-Track-Chooser";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		77267648246856220064AE0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45JU49X5G4;
+				INFOPLIST_FILE = "Penn Station Track ChooserTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ad.mc.example.Penn-Station-Track-ChooserTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Penn Station Track Chooser.app/Penn Station Track Chooser";
+			};
+			name = Debug;
+		};
+		77267649246856220064AE0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45JU49X5G4;
+				INFOPLIST_FILE = "Penn Station Track ChooserTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ad.mc.example.Penn-Station-Track-ChooserTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Penn Station Track Chooser.app/Penn Station Track Chooser";
+			};
+			name = Release;
+		};
+		7726764B246856220064AE0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45JU49X5G4;
+				INFOPLIST_FILE = "Penn Station Track ChooserUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ad.mc.example.Penn-Station-Track-ChooserUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Penn Station Track Chooser";
+			};
+			name = Debug;
+		};
+		7726764C246856220064AE0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45JU49X5G4;
+				INFOPLIST_FILE = "Penn Station Track ChooserUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ad.mc.example.Penn-Station-Track-ChooserUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Penn Station Track Chooser";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		772676152468561F0064AE0C /* Build configuration list for PBXProject "Penn Station Track Chooser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77267642246856220064AE0C /* Debug */,
+				77267643246856220064AE0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77267644246856220064AE0C /* Build configuration list for PBXNativeTarget "Penn Station Track Chooser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77267645246856220064AE0C /* Debug */,
+				77267646246856220064AE0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77267647246856220064AE0C /* Build configuration list for PBXNativeTarget "Penn Station Track ChooserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77267648246856220064AE0C /* Debug */,
+				77267649246856220064AE0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7726764A246856220064AE0C /* Build configuration list for PBXNativeTarget "Penn Station Track ChooserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7726764B246856220064AE0C /* Debug */,
+				7726764C246856220064AE0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 772676122468561F0064AE0C /* Project object */;
+}
