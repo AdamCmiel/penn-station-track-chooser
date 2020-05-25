@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22C21C48247C7BDD00957543 /* FeedParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C21C46247C7BDD00957543 /* FeedParser.swift */; };
+		22C21C49247C7BDD00957543 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C21C47247C7BDD00957543 /* API.swift */; };
+		22C21C4C247C7CC800957543 /* SwiftProtobuf in Frameworks */ = {isa = PBXBuildFile; productRef = 22C21C4B247C7CC800957543 /* SwiftProtobuf */; };
 		7726761E2468561F0064AE0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7726761D2468561F0064AE0C /* AppDelegate.swift */; };
 		772676202468561F0064AE0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7726761F2468561F0064AE0C /* SceneDelegate.swift */; };
 		772676222468561F0064AE0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772676212468561F0064AE0C /* ContentView.swift */; };
@@ -50,6 +53,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22C21C46247C7BDD00957543 /* FeedParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedParser.swift; sourceTree = "<group>"; };
+		22C21C47247C7BDD00957543 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		7726761A2468561F0064AE0C /* Penn Station Track Chooser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Penn Station Track Chooser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7726761D2468561F0064AE0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7726761F2468561F0064AE0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22C21C4C247C7CC800957543 /* SwiftProtobuf in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,8 +181,8 @@
 				77AA9F50247C4D6B009E9DD0 /* Secret.swift */,
 				7726764F24685D730064AE0C /* gtfs-realtime.pb.swift */,
 				7726764D24685D4C0064AE0C /* nyct-subway.pb.swift */,
-				7726765224685DC70064AE0C /* API.swift */,
-				7726765424698E150064AE0C /* FeedParser.swift */,
+				22C21C47247C7BDD00957543 /* API.swift */,
+				22C21C46247C7BDD00957543 /* FeedParser.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -213,6 +219,9 @@
 			dependencies = (
 			);
 			name = "Penn Station Track Chooser";
+			packageProductDependencies = (
+				22C21C4B247C7CC800957543 /* SwiftProtobuf */,
+			);
 			productName = "Penn Station Track Chooser";
 			productReference = 7726761A2468561F0064AE0C /* Penn Station Track Chooser.app */;
 			productType = "com.apple.product-type.application";
@@ -285,6 +294,9 @@
 				Base,
 			);
 			mainGroup = 772676112468561F0064AE0C;
+			packageReferences = (
+				22C21C4A247C7CC800957543 /* XCRemoteSwiftPackageReference "swift-protobuf" */,
+			);
 			productRefGroup = 7726761B2468561F0064AE0C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -314,6 +326,8 @@
 				77AAA2C4247C7DE4009E9DD0 /* calendar.txt in Resources */,
 				77AAA2C1247C7DE4009E9DD0 /* shapes.txt in Resources */,
 				77AAA2C5247C7DE4009E9DD0 /* routes.txt in Resources */,
+				77267627246856220064AE0C /* Preview Assets.xcassets in Resources */,
+				77267624246856220064AE0C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,10 +355,10 @@
 				7726761E2468561F0064AE0C /* AppDelegate.swift in Sources */,
 				7726764E24685D4C0064AE0C /* nyct-subway.pb.swift in Sources */,
 				772676202468561F0064AE0C /* SceneDelegate.swift in Sources */,
-				7726765524698E150064AE0C /* FeedParser.swift in Sources */,
+				22C21C48247C7BDD00957543 /* FeedParser.swift in Sources */,
+				22C21C49247C7BDD00957543 /* API.swift in Sources */,
 				772676222468561F0064AE0C /* ContentView.swift in Sources */,
 				77AA9F51247C4D6B009E9DD0 /* Secret.swift in Sources */,
-				7726765324685DC70064AE0C /* API.swift in Sources */,
 				7726765024685D730064AE0C /* gtfs-realtime.pb.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -672,6 +686,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		22C21C4A247C7CC800957543 /* XCRemoteSwiftPackageReference "swift-protobuf" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-protobuf.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		22C21C4B247C7CC800957543 /* SwiftProtobuf */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 22C21C4A247C7CC800957543 /* XCRemoteSwiftPackageReference "swift-protobuf" */;
+			productName = SwiftProtobuf;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 772676122468561F0064AE0C /* Project object */;
 }
