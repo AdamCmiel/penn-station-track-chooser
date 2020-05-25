@@ -10,11 +10,22 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        API.requestFeed { result in
+            switch result {
+            case .failure:
+                return
+            case .success(let message):
+                let parser = FeedParser(message: message)
+                let pennUpdates = parser.trackUpdates(at: .PennStation)
+//                let tripIDs = ATrainUpdates.map { $0.tripUpdate.trip.tripID }
+
+                print(pennUpdates.count)
+            }
+        }
+
+
         return true
     }
 

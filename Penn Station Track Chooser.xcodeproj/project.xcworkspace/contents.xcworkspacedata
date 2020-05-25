@@ -1,6 +1,1480 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "group:../API"
+      name = "API">
+      <FileRef
+         location = "group:/Users/adamcmiel/Library/Autosave Information/Penn Station Track Chooser/Penn Station Track Chooser/API/FeedParser.swift">
+      </FileRef>
+      <FileRef
+         location = "group:/Users/adamcmiel/Library/Autosave Information/Penn Station Track Chooser/Penn Station Track Chooser/API/API.swift">
+      </FileRef>
+      <FileRef
+         location = "group:gtfs-realtime.pb.swift">
+      </FileRef>
+      <FileRef
+         location = "group:nyct-subway.pb.swift">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:../swift-protobuf"
+      name = "swift-protobuf">
+      <Group
+         location = "group:Documentation"
+         name = "Documentation">
+         <FileRef
+            location = "group:PLUGIN.md">
+         </FileRef>
+         <FileRef
+            location = "group:RELEASING.md">
+         </FileRef>
+         <FileRef
+            location = "group:API.md">
+         </FileRef>
+         <FileRef
+            location = "group:CONFORMANCE_TESTS.md">
+         </FileRef>
+         <FileRef
+            location = "group:STYLE_GUIDELINES.md">
+         </FileRef>
+         <FileRef
+            location = "group:FAQ.md">
+         </FileRef>
+         <FileRef
+            location = "group:INTERNALS.md">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Protos"
+         name = "Protos">
+         <FileRef
+            location = "group:unittest_swift_performance.proto">
+         </FileRef>
+         <FileRef
+            location = "group:unittest_swift_enum_proto3.proto">
+         </FileRef>
+         <FileRef
+            location = "group:unittest_swift_extension.proto">
+         </FileRef>
+         <FileRef
+            location = "group:generated_swift_names_fields.proto">
+         </FileRef>
+         <FileRef
+            location = "group:unittest_swift_naming_no_prefix.proto">
+         </FileRef>
+         <FileRef
+            location = "group:unittest_swift_enum.proto">
+         </FileRef>
+         <FileRef
+            location = "group:pluginlib_descriptor_test2.proto">
+         </FileRef>
+         <FileRef
+            location = "group:generated_swift_names_enums.proto">
+         </FileRef>
+         <FileRef
+            location = "group:unittest_swift_naming_number_prefix.proto">
+         </FileRef>
+         <FileRef
+            location = "group:unittest_swift_naming.proto">
+         </FileRef>
+         <Group
+            location = "group:google"
+            name = "google">
+            <Group
+               location = "group:protobuf"
+               name = "protobuf">
+               <FileRef
+                  location = "group:unittest_no_field_presence.proto">
+               </FileRef>
+               <FileRef
+                  location = "group:map_proto2_unittest.proto">
+               </FileRef>
+               <FileRef
+                  location = "group:timestamp.proto">
+               </FileRef>
+               <FileRef
+                  location = "group:field_mask.proto">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_optimize_for.proto">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_lazy_dependencies_custom_option.proto">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_drop_unknown_fields.proto">
+               </FileRef>
+               <FileRef
+                  location = "group:map_unittest.proto">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_well_known_types.proto">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_enormous_descriptor.proto">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_embed_optimize_for.proto">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_arena.proto">
+               </FileRef>
+               <FileRef
+                  location = "group:test_messages_proto3.proto">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_preserve_unknown_enum.proto">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_lite.proto">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_proto3_arena.proto">
+               </FileRef>
+               <FileRef
+                  location = "group:api.proto">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_proto3.proto">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_import.proto">
+               </FileRef>
+               <FileRef
+                  location = "group:duration.proto">
+               </FileRef>
+               <FileRef
+                  location = "group:struct.proto">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_no_generic_services.proto">
+               </FileRef>
+               <FileRef
+                  location = "group:test_messages_proto2.proto">
+               </FileRef>
+               <FileRef
+                  location = "group:wrappers.proto">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_proto3_optional.proto">
+               </FileRef>
+               <FileRef
+                  location = "group:source_context.proto">
+               </FileRef>
+               <FileRef
+                  location = "group:any.proto">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_import_public.proto">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest.proto">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_no_arena_import.proto">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_no_arena.proto">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_mset_wire_format.proto">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_empty.proto">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_import_public_lite.proto">
+               </FileRef>
+               <FileRef
+                  location = "group:map_lite_unittest.proto">
+               </FileRef>
+               <FileRef
+                  location = "group:type.proto">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_mset.proto">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_no_arena_lite.proto">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_import_lite.proto">
+               </FileRef>
+               <FileRef
+                  location = "group:empty.proto">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_lazy_dependencies.proto">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_proto3_lite.proto">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_proto3_arena_lite.proto">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_lite_imports_nonlite.proto">
+               </FileRef>
+               <Group
+                  location = "group:compiler"
+                  name = "compiler">
+                  <FileRef
+                     location = "group:plugin.proto">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:descriptor.proto">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_lazy_dependencies_enum.proto">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_preserve_unknown_enum2.proto">
+               </FileRef>
+               <FileRef
+                  location = "group:any_test.proto">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_custom_options.proto">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:pluginlib_descriptor_test.proto">
+         </FileRef>
+         <Group
+            location = "group:SwiftProtobufPluginLibrary"
+            name = "SwiftProtobufPluginLibrary">
+            <FileRef
+               location = "group:swift_protobuf_module_mappings.proto">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:generated_swift_names_enum_cases.proto">
+         </FileRef>
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+         <FileRef
+            location = "group:unittest_swift_reserved.proto">
+         </FileRef>
+         <FileRef
+            location = "group:unittest_swift_extension4.proto">
+         </FileRef>
+         <FileRef
+            location = "group:unittest_swift_oneof_all_required.proto">
+         </FileRef>
+         <FileRef
+            location = "group:unittest_swift_runtime_proto2.proto">
+         </FileRef>
+         <FileRef
+            location = "group:unittest_swift_extension2.proto">
+         </FileRef>
+         <FileRef
+            location = "group:unittest_swift_reserved_ext.proto">
+         </FileRef>
+         <FileRef
+            location = "group:unittest_swift_startup.proto">
+         </FileRef>
+         <FileRef
+            location = "group:unittest_swift_oneof_merging.proto">
+         </FileRef>
+         <FileRef
+            location = "group:unittest_swift_runtime_proto3.proto">
+         </FileRef>
+         <FileRef
+            location = "group:unittest_swift_all_required_types.proto">
+         </FileRef>
+         <FileRef
+            location = "group:unittest_swift_cycle.proto">
+         </FileRef>
+         <FileRef
+            location = "group:unittest_swift_groups.proto">
+         </FileRef>
+         <FileRef
+            location = "group:unittest_swift_enum_optional_default.proto">
+         </FileRef>
+         <FileRef
+            location = "group:generated_swift_names_messages.proto">
+         </FileRef>
+         <FileRef
+            location = "group:unittest_swift_fieldorder.proto">
+         </FileRef>
+         <FileRef
+            location = "group:unittest_swift_extension3.proto">
+         </FileRef>
+         <Group
+            location = "group:conformance"
+            name = "conformance">
+            <FileRef
+               location = "group:conformance.proto">
+            </FileRef>
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:CMakeLists.txt">
+      </FileRef>
+      <Group
+         location = "group:cmake"
+         name = "cmake">
+         <Group
+            location = "group:modules"
+            name = "modules">
+            <FileRef
+               location = "group:SwiftSupport.cmake">
+            </FileRef>
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:Makefile">
+      </FileRef>
+      <FileRef
+         location = "group:Package@swift-4.2.swift">
+      </FileRef>
+      <Group
+         location = "group:Tests"
+         name = "Tests">
+         <FileRef
+            location = "group:LinuxMain.swift">
+         </FileRef>
+         <Group
+            location = "group:SwiftProtobufTests"
+            name = "SwiftProtobufTests">
+            <FileRef
+               location = "group:Test_MapFields_Access_Proto3.swift">
+            </FileRef>
+            <FileRef
+               location = "group:unittest_well_known_types.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_Empty.swift">
+            </FileRef>
+            <FileRef
+               location = "group:unittest_swift_oneof_merging.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:unittest_swift_all_required_types.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:unittest_swift_startup.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_BinaryDelimited.swift">
+            </FileRef>
+            <FileRef
+               location = "group:unittest_lite.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_SimpleExtensionMap.swift">
+            </FileRef>
+            <FileRef
+               location = "group:unittest_preserve_unknown_enum2.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:unittest_preserve_unknown_enum.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:unittest_lite_imports_nonlite.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:map_unittest.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_JSON_Array.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_MessageSet.swift">
+            </FileRef>
+            <FileRef
+               location = "group:unittest_swift_groups.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:test_messages_proto3.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:unittest_custom_options.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Message+UInt8ArrayHelpers.swift">
+            </FileRef>
+            <FileRef
+               location = "group:generated_swift_names_messages.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:unittest_empty.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_TextFormat_proto3.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_RecursiveMap.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_AllTypes_Proto3_Optional.swift">
+            </FileRef>
+            <FileRef
+               location = "group:generated_swift_names_enums.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:map_proto2_unittest.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:unittest_no_arena_lite.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_TextFormat_proto2_extensions.swift">
+            </FileRef>
+            <FileRef
+               location = "group:unittest_swift_extension.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:unittest_swift_reserved.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:unittest_optimize_for.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_Api.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Data+TestHelpers.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_Timestamp.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_Map.swift">
+            </FileRef>
+            <FileRef
+               location = "group:unittest_no_generic_services.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:generated_swift_names_fields.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_Extensions.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_EnumWithAliases.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_Struct.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_MapFields_Access_Proto2.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_Wrappers.swift">
+            </FileRef>
+            <FileRef
+               location = "group:conformance.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_JSON.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_Required.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_TextFormat_proto2.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_Type.swift">
+            </FileRef>
+            <FileRef
+               location = "group:unittest_mset.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:unittest_swift_enum_proto3.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:unittest_import_lite.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:unittest_swift_naming_no_prefix.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:unittest_proto3_arena.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:unittest_proto3_optional.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_TextFormat_WKT_proto3.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_Merge.swift">
+            </FileRef>
+            <FileRef
+               location = "group:generated_swift_names_enum_cases.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:unittest_swift_cycle.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_JSON_Group.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_JSONDecodingOptions.swift">
+            </FileRef>
+            <FileRef
+               location = "group:unittest_swift_extension4.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_OneofFields_Access_Proto3.swift">
+            </FileRef>
+            <FileRef
+               location = "group:unittest_swift_oneof_all_required.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_Any.swift">
+            </FileRef>
+            <FileRef
+               location = "group:unittest.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:unittest_swift_fieldorder.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:unittest_no_field_presence.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_Unknown_proto3.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_BinaryDecodingOptions.swift">
+            </FileRef>
+            <FileRef
+               location = "group:unittest_import_public.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:unittest_swift_naming_number_prefix.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:unittest_swift_naming.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_Duration.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_BasicFields_Access_Proto3.swift">
+            </FileRef>
+            <FileRef
+               location = "group:unittest_mset_wire_format.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_FieldOrdering.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_ReallyLargeTagNumber.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_TextFormat_Unknown.swift">
+            </FileRef>
+            <FileRef
+               location = "group:TestHelpers.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_ParsingMerge.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_OneofFields_Access_Proto2.swift">
+            </FileRef>
+            <FileRef
+               location = "group:unittest_swift_performance.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_FieldMask.swift">
+            </FileRef>
+            <FileRef
+               location = "group:unittest_import.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:any_test.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_AllTypes_Proto3.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_Enum.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_GroupWithGroups.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_Enum_Proto2.swift">
+            </FileRef>
+            <FileRef
+               location = "group:unittest_import_public_lite.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_Naming.swift">
+            </FileRef>
+            <FileRef
+               location = "group:unittest_drop_unknown_fields.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:unittest_no_arena_import.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:unittest_swift_enum_optional_default.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_Conformance.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_Reserved.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_TextFormat_Map_proto3.swift">
+            </FileRef>
+            <FileRef
+               location = "group:unittest_embed_optimize_for.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:unittest_swift_extension2.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:unittest_swift_extension3.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:unittest_proto3.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_BasicFields_Access_Proto2.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_JSONEncodingOptions.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_Packed.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_Unknown_proto2.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_JSON_Conformance.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_AllTypes.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_ExtremeDefaultValues.swift">
+            </FileRef>
+            <FileRef
+               location = "group:unittest_no_arena.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:unittest_swift_runtime_proto2.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:unittest_swift_runtime_proto3.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_Map_JSON.swift">
+            </FileRef>
+            <FileRef
+               location = "group:unittest_swift_enum.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:unittest_swift_reserved_ext.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:unittest_arena.pb.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:SwiftProtobufPluginLibraryTests"
+            name = "SwiftProtobufPluginLibraryTests">
+            <FileRef
+               location = "group:Test_SwiftProtobufNamer.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_ProtoFileToModuleMappings.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_Descriptor.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_NamingUtils.swift">
+            </FileRef>
+            <FileRef
+               location = "group:DescriptorTestData.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Test_SwiftLanguage.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Descriptor+TestHelpers.swift">
+            </FileRef>
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:README.md">
+      </FileRef>
+      <FileRef
+         location = "group:Package@swift-4.swift">
+      </FileRef>
+      <Group
+         location = "group:DevTools"
+         name = "DevTools">
+         <FileRef
+            location = "group:CollectTests.awk">
+         </FileRef>
+         <FileRef
+            location = "group:CopyrightFixup.sh">
+         </FileRef>
+         <FileRef
+            location = "group:LibraryVersions.py">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:Package.swift">
+      </FileRef>
+      <FileRef
+         location = "group:SwiftProtobuf.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:Sources"
+         name = "Sources">
+         <FileRef
+            location = "group:CMakeLists.txt">
+         </FileRef>
+         <Group
+            location = "group:SwiftProtobufPluginLibrary"
+            name = "SwiftProtobufPluginLibrary">
+            <FileRef
+               location = "group:Array+Extensions.swift">
+            </FileRef>
+            <FileRef
+               location = "group:SwiftLanguage.swift">
+            </FileRef>
+            <FileRef
+               location = "group:CMakeLists.txt">
+            </FileRef>
+            <FileRef
+               location = "group:Google_Protobuf_SourceCodeInfo+Extensions.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Google_Protobuf_Compiler_CodeGeneratorResponse+Extensions.swift">
+            </FileRef>
+            <FileRef
+               location = "group:ProvidesSourceCodeLocation.swift">
+            </FileRef>
+            <FileRef
+               location = "group:swift_protobuf_module_mappings.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Descriptor.swift">
+            </FileRef>
+            <FileRef
+               location = "group:FieldNumbers.swift">
+            </FileRef>
+            <FileRef
+               location = "group:ProvidesLocationPath.swift">
+            </FileRef>
+            <FileRef
+               location = "group:plugin.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:NamingUtils.swift">
+            </FileRef>
+            <FileRef
+               location = "group:SwiftProtobufInfo.swift">
+            </FileRef>
+            <FileRef
+               location = "group:UnicodeScalar+Extensions.swift">
+            </FileRef>
+            <FileRef
+               location = "group:SwiftProtobufNamer.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Descriptor+Extensions.swift">
+            </FileRef>
+            <FileRef
+               location = "group:ProtoFileToModuleMappings.swift">
+            </FileRef>
+            <FileRef
+               location = "group:CodePrinter.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:protoc-gen-swift"
+            name = "protoc-gen-swift">
+            <FileRef
+               location = "group:FileGenerator.swift">
+            </FileRef>
+            <FileRef
+               location = "group:MessageStorageClassGenerator.swift">
+            </FileRef>
+            <FileRef
+               location = "group:CMakeLists.txt">
+            </FileRef>
+            <FileRef
+               location = "group:CommandLine+Extensions.swift">
+            </FileRef>
+            <FileRef
+               location = "group:EnumGenerator.swift">
+            </FileRef>
+            <FileRef
+               location = "group:GeneratorOptions.swift">
+            </FileRef>
+            <FileRef
+               location = "group:StringUtils.swift">
+            </FileRef>
+            <FileRef
+               location = "group:FileIo.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Version.swift">
+            </FileRef>
+            <FileRef
+               location = "group:MessageFieldGenerator.swift">
+            </FileRef>
+            <FileRef
+               location = "group:GenerationError.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Google_Protobuf_DescriptorProto+Extensions.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Google_Protobuf_FileDescriptorProto+Extensions.swift">
+            </FileRef>
+            <FileRef
+               location = "group:OneofGenerator.swift">
+            </FileRef>
+            <FileRef
+               location = "group:ExtensionSetGenerator.swift">
+            </FileRef>
+            <FileRef
+               location = "group:FieldGenerator.swift">
+            </FileRef>
+            <FileRef
+               location = "group:MessageGenerator.swift">
+            </FileRef>
+            <FileRef
+               location = "group:main.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Descriptor+Extensions.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:SwiftProtobuf"
+            name = "SwiftProtobuf">
+            <FileRef
+               location = "group:ExtensibleMessage.swift">
+            </FileRef>
+            <FileRef
+               location = "group:JSONEncodingError.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Google_Protobuf_Any+Registry.swift">
+            </FileRef>
+            <FileRef
+               location = "group:TextFormatDecoder.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Visitor.swift">
+            </FileRef>
+            <FileRef
+               location = "group:api.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:ExtensionFieldValueSet.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Message+AnyAdditions.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Decoder.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Google_Protobuf_Struct+Extensions.swift">
+            </FileRef>
+            <FileRef
+               location = "group:CMakeLists.txt">
+            </FileRef>
+            <FileRef
+               location = "group:ProtobufMap.swift">
+            </FileRef>
+            <FileRef
+               location = "group:ProtobufAPIVersionCheck.swift">
+            </FileRef>
+            <FileRef
+               location = "group:JSONEncoder.swift">
+            </FileRef>
+            <FileRef
+               location = "group:BinaryEncodingVisitor.swift">
+            </FileRef>
+            <FileRef
+               location = "group:duration.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:HashVisitor.swift">
+            </FileRef>
+            <FileRef
+               location = "group:MathUtils.swift">
+            </FileRef>
+            <FileRef
+               location = "group:JSONDecodingOptions.swift">
+            </FileRef>
+            <FileRef
+               location = "group:StringUtils.swift">
+            </FileRef>
+            <FileRef
+               location = "group:JSONDecodingError.swift">
+            </FileRef>
+            <FileRef
+               location = "group:JSONEncodingOptions.swift">
+            </FileRef>
+            <FileRef
+               location = "group:TimeUtils.swift">
+            </FileRef>
+            <FileRef
+               location = "group:BinaryEncodingError.swift">
+            </FileRef>
+            <FileRef
+               location = "group:NameMap.swift">
+            </FileRef>
+            <FileRef
+               location = "group:empty.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Varint.swift">
+            </FileRef>
+            <FileRef
+               location = "group:TextFormatEncodingOptions.swift">
+            </FileRef>
+            <FileRef
+               location = "group:BinaryDecodingOptions.swift">
+            </FileRef>
+            <FileRef
+               location = "group:TextFormatEncodingVisitor.swift">
+            </FileRef>
+            <FileRef
+               location = "group:wrappers.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:WireFormat.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Message.swift">
+            </FileRef>
+            <FileRef
+               location = "group:JSONDecoder.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Version.swift">
+            </FileRef>
+            <FileRef
+               location = "group:source_context.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:JSONEncodingVisitor.swift">
+            </FileRef>
+            <FileRef
+               location = "group:SelectiveVisitor.swift">
+            </FileRef>
+            <FileRef
+               location = "group:struct.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:MessageExtension.swift">
+            </FileRef>
+            <FileRef
+               location = "group:TextFormatEncoder.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Google_Protobuf_Value+Extensions.swift">
+            </FileRef>
+            <FileRef
+               location = "group:descriptor.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Google_Protobuf_ListValue+Extensions.swift">
+            </FileRef>
+            <FileRef
+               location = "group:ExtensionFields.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Google_Protobuf_FieldMask+Extensions.swift">
+            </FileRef>
+            <FileRef
+               location = "group:CustomJSONCodable.swift">
+            </FileRef>
+            <FileRef
+               location = "group:AnyUnpackError.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Google_Protobuf_Duration+Extensions.swift">
+            </FileRef>
+            <FileRef
+               location = "group:BinaryDecodingError.swift">
+            </FileRef>
+            <FileRef
+               location = "group:FieldTag.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Message+TextFormatAdditions.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Google_Protobuf_Wrappers+Extensions.swift">
+            </FileRef>
+            <FileRef
+               location = "group:type.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:timestamp.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Internal.swift">
+            </FileRef>
+            <FileRef
+               location = "group:TextFormatScanner.swift">
+            </FileRef>
+            <FileRef
+               location = "group:field_mask.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:UnsafeRawPointer+Shims.swift">
+            </FileRef>
+            <FileRef
+               location = "group:UnknownStorage.swift">
+            </FileRef>
+            <FileRef
+               location = "group:JSONMapEncodingVisitor.swift">
+            </FileRef>
+            <FileRef
+               location = "group:BinaryEncoder.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Message+JSONAdditions.swift">
+            </FileRef>
+            <FileRef
+               location = "group:ExtensionMap.swift">
+            </FileRef>
+            <FileRef
+               location = "group:AnyMessageStorage.swift">
+            </FileRef>
+            <FileRef
+               location = "group:SimpleExtensionMap.swift">
+            </FileRef>
+            <FileRef
+               location = "group:BinaryDelimited.swift">
+            </FileRef>
+            <FileRef
+               location = "group:BinaryDecoder.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Message+JSONArrayAdditions.swift">
+            </FileRef>
+            <FileRef
+               location = "group:ProtoNameProviding.swift">
+            </FileRef>
+            <FileRef
+               location = "group:any.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:ZigZag.swift">
+            </FileRef>
+            <FileRef
+               location = "group:JSONScanner.swift">
+            </FileRef>
+            <FileRef
+               location = "group:UnsafeBufferPointer+Shims.swift">
+            </FileRef>
+            <FileRef
+               location = "group:TextFormatDecodingError.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Google_Protobuf_Timestamp+Extensions.swift">
+            </FileRef>
+            <FileRef
+               location = "group:DoubleParser.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Data+Extensions.swift">
+            </FileRef>
+            <FileRef
+               location = "group:FieldTypes.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Enum.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Message+BinaryAdditions.swift">
+            </FileRef>
+            <FileRef
+               location = "group:BinaryEncodingSizeVisitor.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Google_Protobuf_Any+Extensions.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Conformance"
+            name = "Conformance">
+            <FileRef
+               location = "group:test_messages_proto3.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:test_messages_proto2.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:conformance.pb.swift">
+            </FileRef>
+            <FileRef
+               location = "group:text_format_failure_list_swift.txt">
+            </FileRef>
+            <FileRef
+               location = "group:main.swift">
+            </FileRef>
+            <FileRef
+               location = "group:failure_list_swift.txt">
+            </FileRef>
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:LICENSE.txt">
+      </FileRef>
+      <Group
+         location = "group:Performance"
+         name = "Performance">
+         <FileRef
+            location = "group:main.cc">
+         </FileRef>
+         <FileRef
+            location = "group:perf_runner.sh">
+         </FileRef>
+         <FileRef
+            location = "group:Protobuf.tracetemplate">
+         </FileRef>
+         <Group
+            location = "group:css"
+            name = "css">
+            <FileRef
+               location = "group:harness-visualization.css">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:js"
+            name = "js">
+            <FileRef
+               location = "group:harness-visualization.js">
+            </FileRef>
+            <FileRef
+               location = "group:results.js.template">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Harness.swift">
+         </FileRef>
+         <FileRef
+            location = "group:harness-visualization.html">
+         </FileRef>
+         <FileRef
+            location = "group:Harness.h">
+         </FileRef>
+         <Group
+            location = "group:runners"
+            name = "runners">
+            <FileRef
+               location = "group:swift.sh">
+            </FileRef>
+            <FileRef
+               location = "group:cpp.sh">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:generators"
+            name = "generators">
+            <FileRef
+               location = "group:swift.sh">
+            </FileRef>
+            <FileRef
+               location = "group:proto.sh">
+            </FileRef>
+            <FileRef
+               location = "group:cpp.sh">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Harness.cc">
+         </FileRef>
+         <FileRef
+            location = "group:main.swift">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:SwiftProtobuf.podspec">
+      </FileRef>
+      <Group
+         location = "group:Reference"
+         name = "Reference">
+         <FileRef
+            location = "group:unittest_swift_oneof_merging.pb.swift">
+         </FileRef>
+         <FileRef
+            location = "group:unittest_swift_all_required_types.pb.swift">
+         </FileRef>
+         <FileRef
+            location = "group:unittest_swift_startup.pb.swift">
+         </FileRef>
+         <FileRef
+            location = "group:unittest_swift_groups.pb.swift">
+         </FileRef>
+         <FileRef
+            location = "group:generated_swift_names_messages.pb.swift">
+         </FileRef>
+         <FileRef
+            location = "group:generated_swift_names_enums.pb.swift">
+         </FileRef>
+         <FileRef
+            location = "group:unittest_swift_extension.pb.swift">
+         </FileRef>
+         <FileRef
+            location = "group:pluginlib_descriptor_test2.pb.swift">
+         </FileRef>
+         <FileRef
+            location = "group:unittest_swift_reserved.pb.swift">
+         </FileRef>
+         <FileRef
+            location = "group:pluginlib_descriptor_test.pb.swift">
+         </FileRef>
+         <FileRef
+            location = "group:generated_swift_names_fields.pb.swift">
+         </FileRef>
+         <Group
+            location = "group:google"
+            name = "google">
+            <Group
+               location = "group:protobuf"
+               name = "protobuf">
+               <FileRef
+                  location = "group:unittest_well_known_types.pb.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_lite.pb.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:api.pb.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_preserve_unknown_enum2.pb.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_preserve_unknown_enum.pb.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_lite_imports_nonlite.pb.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:map_unittest.pb.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:test_messages_proto3.pb.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:test_messages_proto2.pb.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_custom_options.pb.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_empty.pb.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:duration.pb.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:map_lite_unittest.pb.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:map_proto2_unittest.pb.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_no_arena_lite.pb.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_optimize_for.pb.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_no_generic_services.pb.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_lazy_dependencies.pb.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:empty.pb.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:wrappers.pb.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:source_context.pb.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_lazy_dependencies_enum.pb.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:struct.pb.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_mset.pb.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_enormous_descriptor.pb.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:descriptor.pb.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_import_lite.pb.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_proto3_arena.pb.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_proto3_optional.pb.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:type.pb.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:timestamp.pb.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_proto3_arena_lite.pb.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest.pb.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_no_field_presence.pb.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_proto3_lite.pb.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_import_public.pb.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:field_mask.pb.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_mset_wire_format.pb.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_import.pb.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:any_test.pb.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_import_public_lite.pb.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_drop_unknown_fields.pb.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_lazy_dependencies_custom_option.pb.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:any.pb.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_no_arena_import.pb.swift">
+               </FileRef>
+               <Group
+                  location = "group:compiler"
+                  name = "compiler">
+                  <FileRef
+                     location = "group:plugin.pb.swift">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:unittest_embed_optimize_for.pb.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_proto3.pb.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_no_arena.pb.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:unittest_arena.pb.swift">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:SwiftProtobufPluginLibrary"
+            name = "SwiftProtobufPluginLibrary">
+            <FileRef
+               location = "group:swift_protobuf_module_mappings.pb.swift">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:unittest_swift_enum_proto3.pb.swift">
+         </FileRef>
+         <FileRef
+            location = "group:unittest_swift_naming_no_prefix.pb.swift">
+         </FileRef>
+         <FileRef
+            location = "group:generated_swift_names_enum_cases.pb.swift">
+         </FileRef>
+         <FileRef
+            location = "group:unittest_swift_cycle.pb.swift">
+         </FileRef>
+         <FileRef
+            location = "group:unittest_swift_extension4.pb.swift">
+         </FileRef>
+         <FileRef
+            location = "group:unittest_swift_oneof_all_required.pb.swift">
+         </FileRef>
+         <FileRef
+            location = "group:unittest_swift_fieldorder.pb.swift">
+         </FileRef>
+         <FileRef
+            location = "group:unittest_swift_naming_number_prefix.pb.swift">
+         </FileRef>
+         <FileRef
+            location = "group:unittest_swift_naming.pb.swift">
+         </FileRef>
+         <FileRef
+            location = "group:unittest_swift_performance.pb.swift">
+         </FileRef>
+         <FileRef
+            location = "group:unittest_swift_enum_optional_default.pb.swift">
+         </FileRef>
+         <FileRef
+            location = "group:unittest_swift_extension2.pb.swift">
+         </FileRef>
+         <FileRef
+            location = "group:unittest_swift_extension3.pb.swift">
+         </FileRef>
+         <FileRef
+            location = "group:unittest_swift_runtime_proto2.pb.swift">
+         </FileRef>
+         <FileRef
+            location = "group:unittest_swift_runtime_proto3.pb.swift">
+         </FileRef>
+         <FileRef
+            location = "group:unittest_swift_enum.pb.swift">
+         </FileRef>
+         <FileRef
+            location = "group:unittest_swift_reserved_ext.pb.swift">
+         </FileRef>
+         <Group
+            location = "group:conformance"
+            name = "conformance">
+            <FileRef
+               location = "group:conformance.pb.swift">
+            </FileRef>
+         </Group>
+      </Group>
+   </Group>
    <FileRef
       location = "self:Penn Station Track Chooser.xcodeproj">
    </FileRef>

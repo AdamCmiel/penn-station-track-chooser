@@ -15,6 +15,21 @@
 		7726762A246856220064AE0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77267628246856220064AE0C /* LaunchScreen.storyboard */; };
 		77267635246856220064AE0C /* Penn_Station_Track_ChooserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77267634246856220064AE0C /* Penn_Station_Track_ChooserTests.swift */; };
 		77267640246856220064AE0C /* Penn_Station_Track_ChooserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7726763F246856220064AE0C /* Penn_Station_Track_ChooserUITests.swift */; };
+		7726764E24685D4C0064AE0C /* nyct-subway.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7726764D24685D4C0064AE0C /* nyct-subway.pb.swift */; };
+		7726765024685D730064AE0C /* gtfs-realtime.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7726764F24685D730064AE0C /* gtfs-realtime.pb.swift */; };
+		7726765324685DC70064AE0C /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7726765224685DC70064AE0C /* API.swift */; };
+		7726765524698E150064AE0C /* FeedParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7726765424698E150064AE0C /* FeedParser.swift */; };
+		7726766024699A1C0064AE0C /* transfers.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7726765724699A1C0064AE0C /* transfers.txt */; };
+		7726766124699A1C0064AE0C /* agency.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7726765824699A1C0064AE0C /* agency.txt */; };
+		7726766224699A1C0064AE0C /* calendar_dates.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7726765924699A1C0064AE0C /* calendar_dates.txt */; };
+		7726766324699A1C0064AE0C /* stop_times.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7726765A24699A1C0064AE0C /* stop_times.txt */; };
+		7726766424699A1C0064AE0C /* shapes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7726765B24699A1C0064AE0C /* shapes.txt */; };
+		7726766524699A1C0064AE0C /* trips.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7726765C24699A1C0064AE0C /* trips.txt */; };
+		7726766624699A1C0064AE0C /* stops.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7726765D24699A1C0064AE0C /* stops.txt */; };
+		7726766724699A1C0064AE0C /* calendar.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7726765E24699A1C0064AE0C /* calendar.txt */; };
+		7726766824699A1C0064AE0C /* routes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7726765F24699A1C0064AE0C /* routes.txt */; };
+		77AA9F4F247C4D0C009E9DD0 /* release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 77AA9F4E247C4D0C009E9DD0 /* release.xcconfig */; };
+		77AA9F51247C4D6B009E9DD0 /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AA9F50247C4D6B009E9DD0 /* Secret.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +64,21 @@
 		7726763B246856220064AE0C /* Penn Station Track ChooserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Penn Station Track ChooserUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7726763F246856220064AE0C /* Penn_Station_Track_ChooserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Penn_Station_Track_ChooserUITests.swift; sourceTree = "<group>"; };
 		77267641246856220064AE0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7726764D24685D4C0064AE0C /* nyct-subway.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "nyct-subway.pb.swift"; path = "../../API/nyct-subway.pb.swift"; sourceTree = "<group>"; };
+		7726764F24685D730064AE0C /* gtfs-realtime.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "gtfs-realtime.pb.swift"; path = "../../API/gtfs-realtime.pb.swift"; sourceTree = "<group>"; };
+		7726765224685DC70064AE0C /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = API.swift; path = "/Users/adamcmiel/Library/Autosave Information/Penn Station Track Chooser/Penn Station Track Chooser/API/API.swift"; sourceTree = "<absolute>"; };
+		7726765424698E150064AE0C /* FeedParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeedParser.swift; path = "/Users/adamcmiel/Library/Autosave Information/Penn Station Track Chooser/Penn Station Track Chooser/API/FeedParser.swift"; sourceTree = "<absolute>"; };
+		7726765724699A1C0064AE0C /* transfers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = transfers.txt; sourceTree = "<group>"; };
+		7726765824699A1C0064AE0C /* agency.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = agency.txt; sourceTree = "<group>"; };
+		7726765924699A1C0064AE0C /* calendar_dates.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = calendar_dates.txt; sourceTree = "<group>"; };
+		7726765A24699A1C0064AE0C /* stop_times.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stop_times.txt; sourceTree = "<group>"; };
+		7726765B24699A1C0064AE0C /* shapes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = shapes.txt; sourceTree = "<group>"; };
+		7726765C24699A1C0064AE0C /* trips.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = trips.txt; sourceTree = "<group>"; };
+		7726765D24699A1C0064AE0C /* stops.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stops.txt; sourceTree = "<group>"; };
+		7726765E24699A1C0064AE0C /* calendar.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = calendar.txt; sourceTree = "<group>"; };
+		7726765F24699A1C0064AE0C /* routes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = routes.txt; sourceTree = "<group>"; };
+		77AA9F4E247C4D0C009E9DD0 /* release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = release.xcconfig; path = "Penn Station Track Chooser/release.xcconfig"; sourceTree = "<group>"; };
+		77AA9F50247C4D6B009E9DD0 /* Secret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +109,8 @@
 		772676112468561F0064AE0C = {
 			isa = PBXGroup;
 			children = (
+				77AA9F4E247C4D0C009E9DD0 /* release.xcconfig */,
+				7726765624699A1C0064AE0C /* google_transit */,
 				7726761C2468561F0064AE0C /* Penn Station Track Chooser */,
 				77267633246856220064AE0C /* Penn Station Track ChooserTests */,
 				7726763E246856220064AE0C /* Penn Station Track ChooserUITests */,
@@ -99,6 +131,7 @@
 		7726761C2468561F0064AE0C /* Penn Station Track Chooser */ = {
 			isa = PBXGroup;
 			children = (
+				7726765124685D770064AE0C /* API */,
 				7726761D2468561F0064AE0C /* AppDelegate.swift */,
 				7726761F2468561F0064AE0C /* SceneDelegate.swift */,
 				772676212468561F0064AE0C /* ContentView.swift */,
@@ -134,6 +167,35 @@
 				77267641246856220064AE0C /* Info.plist */,
 			);
 			path = "Penn Station Track ChooserUITests";
+			sourceTree = "<group>";
+		};
+		7726765124685D770064AE0C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				77AA9F50247C4D6B009E9DD0 /* Secret.swift */,
+				7726764F24685D730064AE0C /* gtfs-realtime.pb.swift */,
+				7726764D24685D4C0064AE0C /* nyct-subway.pb.swift */,
+				7726765224685DC70064AE0C /* API.swift */,
+				7726765424698E150064AE0C /* FeedParser.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		7726765624699A1C0064AE0C /* google_transit */ = {
+			isa = PBXGroup;
+			children = (
+				7726765724699A1C0064AE0C /* transfers.txt */,
+				7726765824699A1C0064AE0C /* agency.txt */,
+				7726765924699A1C0064AE0C /* calendar_dates.txt */,
+				7726765A24699A1C0064AE0C /* stop_times.txt */,
+				7726765B24699A1C0064AE0C /* shapes.txt */,
+				7726765C24699A1C0064AE0C /* trips.txt */,
+				7726765D24699A1C0064AE0C /* stops.txt */,
+				7726765E24699A1C0064AE0C /* calendar.txt */,
+				7726765F24699A1C0064AE0C /* routes.txt */,
+			);
+			name = google_transit;
+			path = ../../../Downloads/google_transit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,8 +303,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				7726762A246856220064AE0C /* LaunchScreen.storyboard in Resources */,
+				77AA9F4F247C4D0C009E9DD0 /* release.xcconfig in Resources */,
+				7726766724699A1C0064AE0C /* calendar.txt in Resources */,
+				7726766824699A1C0064AE0C /* routes.txt in Resources */,
+				7726766124699A1C0064AE0C /* agency.txt in Resources */,
+				7726766324699A1C0064AE0C /* stop_times.txt in Resources */,
 				77267627246856220064AE0C /* Preview Assets.xcassets in Resources */,
+				7726766424699A1C0064AE0C /* shapes.txt in Resources */,
 				77267624246856220064AE0C /* Assets.xcassets in Resources */,
+				7726766624699A1C0064AE0C /* stops.txt in Resources */,
+				7726766224699A1C0064AE0C /* calendar_dates.txt in Resources */,
+				7726766024699A1C0064AE0C /* transfers.txt in Resources */,
+				7726766524699A1C0064AE0C /* trips.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,8 +340,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7726761E2468561F0064AE0C /* AppDelegate.swift in Sources */,
+				7726764E24685D4C0064AE0C /* nyct-subway.pb.swift in Sources */,
 				772676202468561F0064AE0C /* SceneDelegate.swift in Sources */,
+				7726765524698E150064AE0C /* FeedParser.swift in Sources */,
 				772676222468561F0064AE0C /* ContentView.swift in Sources */,
+				77AA9F51247C4D6B009E9DD0 /* Secret.swift in Sources */,
+				7726765324685DC70064AE0C /* API.swift in Sources */,
+				7726765024685D730064AE0C /* gtfs-realtime.pb.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +395,7 @@
 /* Begin XCBuildConfiguration section */
 		77267642246856220064AE0C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77AA9F4E247C4D0C009E9DD0 /* release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -378,6 +456,7 @@
 		};
 		77267643246856220064AE0C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77AA9F4E247C4D0C009E9DD0 /* release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
