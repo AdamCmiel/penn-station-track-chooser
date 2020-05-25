@@ -19,17 +19,17 @@
 		7726765024685D730064AE0C /* gtfs-realtime.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7726764F24685D730064AE0C /* gtfs-realtime.pb.swift */; };
 		7726765324685DC70064AE0C /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7726765224685DC70064AE0C /* API.swift */; };
 		7726765524698E150064AE0C /* FeedParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7726765424698E150064AE0C /* FeedParser.swift */; };
-		7726766024699A1C0064AE0C /* transfers.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7726765724699A1C0064AE0C /* transfers.txt */; };
-		7726766124699A1C0064AE0C /* agency.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7726765824699A1C0064AE0C /* agency.txt */; };
-		7726766224699A1C0064AE0C /* calendar_dates.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7726765924699A1C0064AE0C /* calendar_dates.txt */; };
-		7726766324699A1C0064AE0C /* stop_times.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7726765A24699A1C0064AE0C /* stop_times.txt */; };
-		7726766424699A1C0064AE0C /* shapes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7726765B24699A1C0064AE0C /* shapes.txt */; };
-		7726766524699A1C0064AE0C /* trips.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7726765C24699A1C0064AE0C /* trips.txt */; };
-		7726766624699A1C0064AE0C /* stops.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7726765D24699A1C0064AE0C /* stops.txt */; };
-		7726766724699A1C0064AE0C /* calendar.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7726765E24699A1C0064AE0C /* calendar.txt */; };
-		7726766824699A1C0064AE0C /* routes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7726765F24699A1C0064AE0C /* routes.txt */; };
 		77AA9F4F247C4D0C009E9DD0 /* release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 77AA9F4E247C4D0C009E9DD0 /* release.xcconfig */; };
 		77AA9F51247C4D6B009E9DD0 /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AA9F50247C4D6B009E9DD0 /* Secret.swift */; };
+		77AAA2BD247C7DE4009E9DD0 /* transfers.txt in Resources */ = {isa = PBXBuildFile; fileRef = 77AAA2B4247C7DE4009E9DD0 /* transfers.txt */; };
+		77AAA2BE247C7DE4009E9DD0 /* agency.txt in Resources */ = {isa = PBXBuildFile; fileRef = 77AAA2B5247C7DE4009E9DD0 /* agency.txt */; };
+		77AAA2BF247C7DE4009E9DD0 /* calendar_dates.txt in Resources */ = {isa = PBXBuildFile; fileRef = 77AAA2B6247C7DE4009E9DD0 /* calendar_dates.txt */; };
+		77AAA2C0247C7DE4009E9DD0 /* stop_times.txt in Resources */ = {isa = PBXBuildFile; fileRef = 77AAA2B7247C7DE4009E9DD0 /* stop_times.txt */; };
+		77AAA2C1247C7DE4009E9DD0 /* shapes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 77AAA2B8247C7DE4009E9DD0 /* shapes.txt */; };
+		77AAA2C2247C7DE4009E9DD0 /* trips.txt in Resources */ = {isa = PBXBuildFile; fileRef = 77AAA2B9247C7DE4009E9DD0 /* trips.txt */; };
+		77AAA2C3247C7DE4009E9DD0 /* stops.txt in Resources */ = {isa = PBXBuildFile; fileRef = 77AAA2BA247C7DE4009E9DD0 /* stops.txt */; };
+		77AAA2C4247C7DE4009E9DD0 /* calendar.txt in Resources */ = {isa = PBXBuildFile; fileRef = 77AAA2BB247C7DE4009E9DD0 /* calendar.txt */; };
+		77AAA2C5247C7DE4009E9DD0 /* routes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 77AAA2BC247C7DE4009E9DD0 /* routes.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,17 +68,17 @@
 		7726764F24685D730064AE0C /* gtfs-realtime.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "gtfs-realtime.pb.swift"; path = "../../API/gtfs-realtime.pb.swift"; sourceTree = "<group>"; };
 		7726765224685DC70064AE0C /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = API.swift; path = "/Users/adamcmiel/Library/Autosave Information/Penn Station Track Chooser/Penn Station Track Chooser/API/API.swift"; sourceTree = "<absolute>"; };
 		7726765424698E150064AE0C /* FeedParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeedParser.swift; path = "/Users/adamcmiel/Library/Autosave Information/Penn Station Track Chooser/Penn Station Track Chooser/API/FeedParser.swift"; sourceTree = "<absolute>"; };
-		7726765724699A1C0064AE0C /* transfers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = transfers.txt; sourceTree = "<group>"; };
-		7726765824699A1C0064AE0C /* agency.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = agency.txt; sourceTree = "<group>"; };
-		7726765924699A1C0064AE0C /* calendar_dates.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = calendar_dates.txt; sourceTree = "<group>"; };
-		7726765A24699A1C0064AE0C /* stop_times.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stop_times.txt; sourceTree = "<group>"; };
-		7726765B24699A1C0064AE0C /* shapes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = shapes.txt; sourceTree = "<group>"; };
-		7726765C24699A1C0064AE0C /* trips.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = trips.txt; sourceTree = "<group>"; };
-		7726765D24699A1C0064AE0C /* stops.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stops.txt; sourceTree = "<group>"; };
-		7726765E24699A1C0064AE0C /* calendar.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = calendar.txt; sourceTree = "<group>"; };
-		7726765F24699A1C0064AE0C /* routes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = routes.txt; sourceTree = "<group>"; };
 		77AA9F4E247C4D0C009E9DD0 /* release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = release.xcconfig; path = "Penn Station Track Chooser/release.xcconfig"; sourceTree = "<group>"; };
 		77AA9F50247C4D6B009E9DD0 /* Secret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
+		77AAA2B4247C7DE4009E9DD0 /* transfers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = transfers.txt; sourceTree = "<group>"; };
+		77AAA2B5247C7DE4009E9DD0 /* agency.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = agency.txt; sourceTree = "<group>"; };
+		77AAA2B6247C7DE4009E9DD0 /* calendar_dates.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = calendar_dates.txt; sourceTree = "<group>"; };
+		77AAA2B7247C7DE4009E9DD0 /* stop_times.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stop_times.txt; sourceTree = "<group>"; };
+		77AAA2B8247C7DE4009E9DD0 /* shapes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = shapes.txt; sourceTree = "<group>"; };
+		77AAA2B9247C7DE4009E9DD0 /* trips.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = trips.txt; sourceTree = "<group>"; };
+		77AAA2BA247C7DE4009E9DD0 /* stops.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stops.txt; sourceTree = "<group>"; };
+		77AAA2BB247C7DE4009E9DD0 /* calendar.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = calendar.txt; sourceTree = "<group>"; };
+		77AAA2BC247C7DE4009E9DD0 /* routes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = routes.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				77AA9F4E247C4D0C009E9DD0 /* release.xcconfig */,
-				7726765624699A1C0064AE0C /* google_transit */,
+				77AAA2B3247C7DE4009E9DD0 /* google_transit */,
 				7726761C2468561F0064AE0C /* Penn Station Track Chooser */,
 				77267633246856220064AE0C /* Penn Station Track ChooserTests */,
 				7726763E246856220064AE0C /* Penn Station Track ChooserUITests */,
@@ -181,21 +181,20 @@
 			path = API;
 			sourceTree = "<group>";
 		};
-		7726765624699A1C0064AE0C /* google_transit */ = {
+		77AAA2B3247C7DE4009E9DD0 /* google_transit */ = {
 			isa = PBXGroup;
 			children = (
-				7726765724699A1C0064AE0C /* transfers.txt */,
-				7726765824699A1C0064AE0C /* agency.txt */,
-				7726765924699A1C0064AE0C /* calendar_dates.txt */,
-				7726765A24699A1C0064AE0C /* stop_times.txt */,
-				7726765B24699A1C0064AE0C /* shapes.txt */,
-				7726765C24699A1C0064AE0C /* trips.txt */,
-				7726765D24699A1C0064AE0C /* stops.txt */,
-				7726765E24699A1C0064AE0C /* calendar.txt */,
-				7726765F24699A1C0064AE0C /* routes.txt */,
+				77AAA2B4247C7DE4009E9DD0 /* transfers.txt */,
+				77AAA2B5247C7DE4009E9DD0 /* agency.txt */,
+				77AAA2B6247C7DE4009E9DD0 /* calendar_dates.txt */,
+				77AAA2B7247C7DE4009E9DD0 /* stop_times.txt */,
+				77AAA2B8247C7DE4009E9DD0 /* shapes.txt */,
+				77AAA2B9247C7DE4009E9DD0 /* trips.txt */,
+				77AAA2BA247C7DE4009E9DD0 /* stops.txt */,
+				77AAA2BB247C7DE4009E9DD0 /* calendar.txt */,
+				77AAA2BC247C7DE4009E9DD0 /* routes.txt */,
 			);
-			name = google_transit;
-			path = ../../../Downloads/google_transit;
+			path = google_transit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,17 +303,17 @@
 			files = (
 				7726762A246856220064AE0C /* LaunchScreen.storyboard in Resources */,
 				77AA9F4F247C4D0C009E9DD0 /* release.xcconfig in Resources */,
-				7726766724699A1C0064AE0C /* calendar.txt in Resources */,
-				7726766824699A1C0064AE0C /* routes.txt in Resources */,
-				7726766124699A1C0064AE0C /* agency.txt in Resources */,
-				7726766324699A1C0064AE0C /* stop_times.txt in Resources */,
+				77AAA2C0247C7DE4009E9DD0 /* stop_times.txt in Resources */,
+				77AAA2C2247C7DE4009E9DD0 /* trips.txt in Resources */,
 				77267627246856220064AE0C /* Preview Assets.xcassets in Resources */,
-				7726766424699A1C0064AE0C /* shapes.txt in Resources */,
 				77267624246856220064AE0C /* Assets.xcassets in Resources */,
-				7726766624699A1C0064AE0C /* stops.txt in Resources */,
-				7726766224699A1C0064AE0C /* calendar_dates.txt in Resources */,
-				7726766024699A1C0064AE0C /* transfers.txt in Resources */,
-				7726766524699A1C0064AE0C /* trips.txt in Resources */,
+				77AAA2BF247C7DE4009E9DD0 /* calendar_dates.txt in Resources */,
+				77AAA2BE247C7DE4009E9DD0 /* agency.txt in Resources */,
+				77AAA2BD247C7DE4009E9DD0 /* transfers.txt in Resources */,
+				77AAA2C3247C7DE4009E9DD0 /* stops.txt in Resources */,
+				77AAA2C4247C7DE4009E9DD0 /* calendar.txt in Resources */,
+				77AAA2C1247C7DE4009E9DD0 /* shapes.txt in Resources */,
+				77AAA2C5247C7DE4009E9DD0 /* routes.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
