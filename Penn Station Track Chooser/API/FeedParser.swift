@@ -47,7 +47,6 @@ extension FeedParser {
 
         let entities = message.entity.filter { entity in
             entity.tripUpdate.stopTimeUpdate.filter { update in
-                print(update.stopID)
                 return update.stopID.contains(station.rawValue)
             }.count > 0
         }

@@ -1,3 +1,4 @@
+import Combine
 import Foundation
 
 private enum Line: Int {
@@ -27,15 +28,29 @@ enum API {
         case decodingError
     }
 
-    static func requestFeed(completion: @escaping (Result<TransitRealtime_FeedMessage, APIError>) -> Void) {
-        let task = URLSession.shared.dataTask(with: Endpoints.line(.mtaABC)) { data, response, error in
-            if let entities = try? TransitRealtime_FeedMessage(serializedData: data!) {
-                completion(.success(entities))
-            } else {
-                completion(.failure(.decodingError))
-            }
-        }
+    static func requestFeed() -> AnyPublisher<TransitRealtime_FeedMessage, Error> {
+        return request(endpoint: Endpoints.line(.mtaABC)) { data in
+            try TransitRealtime_FeedMessage(serializedData: data)
+        }.eraseToAnyPublisher()
+    }
+//        return Future { promise in
+//            let task = URLSession.shared.dataTask(with: Endpoints.line(.mtaABC)) { data, response, error in
+//                if let entities = try? TransitRealtime_FeedMessage(serializedData: data!) {
+//                    promise(.success(entities))
+//                } else {
+//                    promise(.failure(.decodingError))
+//                }
+//            }
+//
+//            task.resume()
+//        }
 
-        task.resume()
+
+    private static func request<T>(endpoint: URL, transform: @escaping (Data) throws -> T)
+        -> AnyPublisher<T, Error>
+    {
+        return URLSession.shared.dataTaskPublisher(for: Endpoints.line(.mtaABC)).tryMap { data, response in
+            return try transform(data)
+        }.eraseToAnyPublisher()
     }
 }

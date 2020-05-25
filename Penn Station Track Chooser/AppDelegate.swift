@@ -5,25 +5,31 @@
 //  Created by Adam Cmiel on 5/10/20.
 //  Copyright © 2020 Adam Cmiel. All rights reserved.
 //
+import Combine
 import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    private var trackUpdatesSubject = PassthroughSubject<[TrackUpdate], API.APIError>()
+    private var cancellable = Set<AnyCancellable>()
+
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        API.requestFeed { result in
-            switch result {
-            case .failure:
+
+        API.requestFeed()
+            .map { FeedParser(message: $0).trackUpdates(at: .PennStation) }
+            .sink(receiveCompletion: { error in
+                switch error {
+                case .failure:
+                    print("fetching data failed")
+                case .finished:
+                    print("fetching data finished")
+                }
+            }) { [unowned self] trainData in
+                self.trackUpdatesSubject.send(trainData)
                 return
-            case .success(let message):
-                let parser = FeedParser(message: message)
-                let pennUpdates = parser.trackUpdates(at: .PennStation)
-//                let tripIDs = ATrainUpdates.map { $0.tripUpdate.trip.tripID }
-
-                print(pennUpdates.count)
             }
-        }
-
+            .store(in: &self.cancellable)
 
         return true
     }
