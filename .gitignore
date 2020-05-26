@@ -1,2 +1,3 @@
 release.xcconfig
 *xcworkspace/xcuserdata/*
+*.xcuserdata

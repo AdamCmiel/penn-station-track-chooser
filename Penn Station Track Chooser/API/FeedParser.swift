@@ -1,3 +1,4 @@
+import CoreLocation
 import Foundation
 
 struct FeedParser {
@@ -19,9 +20,15 @@ enum Station: String {
             return [.A, .C, .E]
         }
     }
+
+    var region: CLRegion {
+        let coordinate = CLLocationCoordinate2D(latitude: 40.752287, longitude: -73.993391)
+        return CLCircularRegion(center: coordinate, radius: 200.0,
+                                identifier: "com.ad.mc.circular.\(self.rawValue)")
+    }
 }
 
-enum Direction: CaseIterable {
+enum Direction: String, CaseIterable {
     case northbound
     case southbound
 }
@@ -31,12 +38,12 @@ enum Track {
     case express
 }
 
-struct TrainUpdate {
+struct TrainUpdate: Hashable {
     let train: Train
     let minutesToArrive: Int
 }
 
-struct TrackUpdate {
+struct TrackUpdate: Hashable {
     let direction: Direction
     let trainUpdates: [TrainUpdate]
 }
@@ -84,7 +91,9 @@ extension FeedParser {
                 return sortedArrivals
                     .map { Int($0.timeIntervalSinceNow / 60) }
                     .map { TrainUpdate(train: train, minutesToArrive: $0) }
-            }.flatMap { $0 }
+            }
+            .flatMap { $0 }
+            .sorted { a, b in a.minutesToArrive < b.minutesToArrive }
 
             return TrackUpdate(direction: direction, trainUpdates: trainUpdates)
         }

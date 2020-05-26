@@ -10,6 +10,7 @@
 		22C21C48247C7BDD00957543 /* FeedParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C21C46247C7BDD00957543 /* FeedParser.swift */; };
 		22C21C49247C7BDD00957543 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C21C47247C7BDD00957543 /* API.swift */; };
 		22C21C4C247C7CC800957543 /* SwiftProtobuf in Frameworks */ = {isa = PBXBuildFile; productRef = 22C21C4B247C7CC800957543 /* SwiftProtobuf */; };
+		22FB09D5247C8C810019390D /* TrackData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FB09D4247C8C810019390D /* TrackData.swift */; };
 		7726761E2468561F0064AE0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7726761D2468561F0064AE0C /* AppDelegate.swift */; };
 		772676202468561F0064AE0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7726761F2468561F0064AE0C /* SceneDelegate.swift */; };
 		772676222468561F0064AE0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772676212468561F0064AE0C /* ContentView.swift */; };
@@ -20,8 +21,6 @@
 		77267640246856220064AE0C /* Penn_Station_Track_ChooserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7726763F246856220064AE0C /* Penn_Station_Track_ChooserUITests.swift */; };
 		7726764E24685D4C0064AE0C /* nyct-subway.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7726764D24685D4C0064AE0C /* nyct-subway.pb.swift */; };
 		7726765024685D730064AE0C /* gtfs-realtime.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7726764F24685D730064AE0C /* gtfs-realtime.pb.swift */; };
-		7726765324685DC70064AE0C /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7726765224685DC70064AE0C /* API.swift */; };
-		7726765524698E150064AE0C /* FeedParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7726765424698E150064AE0C /* FeedParser.swift */; };
 		77AA9F4F247C4D0C009E9DD0 /* release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 77AA9F4E247C4D0C009E9DD0 /* release.xcconfig */; };
 		77AA9F51247C4D6B009E9DD0 /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AA9F50247C4D6B009E9DD0 /* Secret.swift */; };
 		77AAA2BD247C7DE4009E9DD0 /* transfers.txt in Resources */ = {isa = PBXBuildFile; fileRef = 77AAA2B4247C7DE4009E9DD0 /* transfers.txt */; };
@@ -55,6 +54,7 @@
 /* Begin PBXFileReference section */
 		22C21C46247C7BDD00957543 /* FeedParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedParser.swift; sourceTree = "<group>"; };
 		22C21C47247C7BDD00957543 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		22FB09D4247C8C810019390D /* TrackData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackData.swift; sourceTree = "<group>"; };
 		7726761A2468561F0064AE0C /* Penn Station Track Chooser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Penn Station Track Chooser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7726761D2468561F0064AE0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7726761F2468561F0064AE0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,8 +71,6 @@
 		77267641246856220064AE0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7726764D24685D4C0064AE0C /* nyct-subway.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "nyct-subway.pb.swift"; path = "../../API/nyct-subway.pb.swift"; sourceTree = "<group>"; };
 		7726764F24685D730064AE0C /* gtfs-realtime.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "gtfs-realtime.pb.swift"; path = "../../API/gtfs-realtime.pb.swift"; sourceTree = "<group>"; };
-		7726765224685DC70064AE0C /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = API.swift; path = "/Users/adamcmiel/Library/Autosave Information/Penn Station Track Chooser/Penn Station Track Chooser/API/API.swift"; sourceTree = "<absolute>"; };
-		7726765424698E150064AE0C /* FeedParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeedParser.swift; path = "/Users/adamcmiel/Library/Autosave Information/Penn Station Track Chooser/Penn Station Track Chooser/API/FeedParser.swift"; sourceTree = "<absolute>"; };
 		77AA9F4E247C4D0C009E9DD0 /* release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = release.xcconfig; path = "Penn Station Track Chooser/release.xcconfig"; sourceTree = "<group>"; };
 		77AA9F50247C4D6B009E9DD0 /* Secret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
 		77AAA2B4247C7DE4009E9DD0 /* transfers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = transfers.txt; sourceTree = "<group>"; };
@@ -112,6 +110,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22FB09D3247C8C510019390D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				22FB09D4247C8C810019390D /* TrackData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		22FB09D6247C91530019390D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				772676212468561F0064AE0C /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		772676112468561F0064AE0C = {
 			isa = PBXGroup;
 			children = (
@@ -137,10 +151,11 @@
 		7726761C2468561F0064AE0C /* Penn Station Track Chooser */ = {
 			isa = PBXGroup;
 			children = (
+				22FB09D6247C91530019390D /* Views */,
+				22FB09D3247C8C510019390D /* Models */,
 				7726765124685D770064AE0C /* API */,
 				7726761D2468561F0064AE0C /* AppDelegate.swift */,
 				7726761F2468561F0064AE0C /* SceneDelegate.swift */,
-				772676212468561F0064AE0C /* ContentView.swift */,
 				77267623246856220064AE0C /* Assets.xcassets */,
 				77267628246856220064AE0C /* LaunchScreen.storyboard */,
 				7726762B246856220064AE0C /* Info.plist */,
@@ -355,6 +370,7 @@
 				7726761E2468561F0064AE0C /* AppDelegate.swift in Sources */,
 				7726764E24685D4C0064AE0C /* nyct-subway.pb.swift in Sources */,
 				772676202468561F0064AE0C /* SceneDelegate.swift in Sources */,
+				22FB09D5247C8C810019390D /* TrackData.swift in Sources */,
 				22C21C48247C7BDD00957543 /* FeedParser.swift in Sources */,
 				22C21C49247C7BDD00957543 /* API.swift in Sources */,
 				772676222468561F0064AE0C /* ContentView.swift in Sources */,
