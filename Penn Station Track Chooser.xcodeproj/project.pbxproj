@@ -547,6 +547,7 @@
 				DEVELOPMENT_TEAM = 45JU49X5G4;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Penn Station Track Chooser/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -554,7 +555,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ad.mc.example.Penn-Station-Track-Chooser";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -567,6 +568,7 @@
 				DEVELOPMENT_TEAM = 45JU49X5G4;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Penn Station Track Chooser/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -574,7 +576,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ad.mc.example.Penn-Station-Track-Chooser";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -1,17 +1,17 @@
 import Combine
 import Foundation
 
-private enum Line: Int {
-    case mta123 = 1
-    case mtaABC = 26
-    case mtaBDFM = 21
+private enum Line: String {
+    case _123 = "123"
+    case ace
+    case bdfm
 }
 
 private enum Endpoints {
-    private static let SERVICE_STATUS_URI = "http://web.mta.info/status/ServiceStatusSubway.xml"
+    private static let REALTIME_FEED_URI = "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/nyct%2Fgtfs-"
     
     private static func endpoint(apiKey key: String, line: Line) -> URL! {
-        URL(string: "https://datamine.mta.info/mta_esi.php?key=\(key)&feed_id=\(line.rawValue)")
+        URL(string: "\(REALTIME_FEED_URI)\(line.rawValue)")
     }
 
     fileprivate static func line(_ line: Line) -> URL {
@@ -29,27 +29,17 @@ enum API {
     }
 
     static func requestFeed() -> AnyPublisher<TransitRealtime_FeedMessage, Error> {
-        return request(endpoint: Endpoints.line(.mtaABC)) { data in
+        return request(endpoint: Endpoints.line(.ace)) { data in
             try TransitRealtime_FeedMessage(serializedData: data)
         }.eraseToAnyPublisher()
     }
-//        return Future { promise in
-//            let task = URLSession.shared.dataTask(with: Endpoints.line(.mtaABC)) { data, response, error in
-//                if let entities = try? TransitRealtime_FeedMessage(serializedData: data!) {
-//                    promise(.success(entities))
-//                } else {
-//                    promise(.failure(.decodingError))
-//                }
-//            }
-//
-//            task.resume()
-//        }
-
 
     private static func request<T>(endpoint: URL, transform: @escaping (Data) throws -> T)
         -> AnyPublisher<T, Error>
     {
-        return URLSession.shared.dataTaskPublisher(for: Endpoints.line(.mtaABC)).tryMap { data, response in
+        var request = URLRequest(url: endpoint)
+        request.setValue(Secret.API, forHTTPHeaderField: "X-API-KEY")
+        return URLSession.shared.dataTaskPublisher(for: request).tryMap { data, response in
             return try transform(data)
         }.eraseToAnyPublisher()
     }

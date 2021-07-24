@@ -1,11 +1,11 @@
 import Foundation
 
 enum Secret {
-    static var API: String! {
-        return infoForKey("MTA secret")
+    static var API: String {
+        return Secret["MTA secret"]!
     }
-
-    private static func infoForKey(_ key: String) -> String? {
+    
+    private static subscript(key: String) -> String? {
        return (Bundle.main.infoDictionary?[key] as? String)?
            .replacingOccurrences(of: "\\", with: "")
     }
