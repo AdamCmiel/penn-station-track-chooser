@@ -38,8 +38,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return center
     }()
 
-    private var cancellable = Set<AnyCancellable>()
-
     var trackUpdates: AnyPublisher<[TrackUpdate], Never> {
         self.trackUpdatesSubject
             .replaceError(with: [])
@@ -56,11 +54,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         locationManager.startMonitoring(for: Station.PennStation.region)
         notificationCenter.requestAuthorization(options: [.badge, .alert], completionHandler: { _, _ in })
 
-        API.requestFeed()
-            .map { FeedParser(message: $0).trackUpdates(at: .PennStation) }
-            .sink(receiveCompletion: sinkError(_:)) { [unowned self] in self.trackUpdatesSubject.send($0) }
-            .store(in: &self.cancellable)
-
+        async {
+            do {
+                let message = try await API.requestFeed(forThe: .ace)
+                let updates = FeedParser(message: message).trackUpdates(at: .PennStation)
+                trackUpdatesSubject.send(updates)
+            } catch {
+                print(error)
+            }
+        }
+        
         return true
     }
 
@@ -88,11 +91,16 @@ extension AppDelegate: CLLocationManagerDelegate {
         guard region.identifier.contains(Station.PennStation.rawValue) else {
             return
         }
-
-        API.requestFeed()
-            .map { FeedParser(message: $0).trackUpdates(at: .PennStation) }
-            .sink(receiveCompletion: sinkError(_:)) { [unowned self] in self.notifyUser(of: $0) }
-            .store(in: &self.cancellable)
+        
+        async {
+            do {
+                let message = try await API.requestFeed(forThe: .ace)
+                let updates = FeedParser(message: message).trackUpdates(at: .PennStation)
+                notifyUser(of: updates)
+            } catch {
+                print(error)
+            }
+        }
     }
 
     private func notifyUser(of trackUpdates: [TrackUpdate]) {

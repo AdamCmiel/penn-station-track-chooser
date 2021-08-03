@@ -1,4 +1,5 @@
 import CoreLocation
+import CodableCSV
 import Foundation
 
 struct FeedParser {
@@ -9,6 +10,31 @@ enum Train: String {
     case A
     case C
     case E
+}
+
+private struct StationData: Decodable {
+    let stop_id: String
+    let stop_name: String
+    let stop_lat: Double
+    let stop_lon: Double
+    let location_type: Int
+    let parent_station: String?
+    
+    static let allData: [String: StationData] = {
+        let data = try! Data(contentsOfResource: "stops", ofType: "csv")
+        var decoder = CSVDecoder()
+        decoder.configuration.delimiter = .endOfLine
+        let allStations = try! decoder.decode(StationData.self, from: data)
+        return allStations.reduce(into: .init()) { mem, station in
+            mem[station.stop_id] = station
+        }
+    }()
+    
+    var region: CLRegion {
+        return CLCircularRegion(center: .init(latitude: stop_lat, longitude: stop_lon),
+                                radius: 200.0,
+                                identifier: "com.ad.mc.circular.\(stop_id)")
+    }
 }
 
 enum Station: String {
@@ -22,9 +48,7 @@ enum Station: String {
     }
 
     var region: CLRegion {
-        let coordinate = CLLocationCoordinate2D(latitude: 40.752287, longitude: -73.993391)
-        return CLCircularRegion(center: coordinate, radius: 200.0,
-                                identifier: "com.ad.mc.circular.\(self.rawValue)")
+        StationData.allData[self.rawValue]?.region ?? .init()
     }
 }
 
@@ -121,5 +145,13 @@ extension Direction {
         case .southbound:
             return "S"
         }
+    }
+}
+
+private extension Data {
+    init(contentsOfResource filename: String, ofType filetype: String) throws {
+        let path = Bundle.main.path(forResource: "stops", ofType: "csv")!
+        let fileURL = URL(fileURLWithPath: path)
+        try self.init(contentsOf: fileURL)
     }
 }

@@ -32,6 +32,9 @@
 		77AAA2C3247C7DE4009E9DD0 /* stops.txt in Resources */ = {isa = PBXBuildFile; fileRef = 77AAA2BA247C7DE4009E9DD0 /* stops.txt */; };
 		77AAA2C4247C7DE4009E9DD0 /* calendar.txt in Resources */ = {isa = PBXBuildFile; fileRef = 77AAA2BB247C7DE4009E9DD0 /* calendar.txt */; };
 		77AAA2C5247C7DE4009E9DD0 /* routes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 77AAA2BC247C7DE4009E9DD0 /* routes.txt */; };
+		77BD512A26AC5A8300A6AB0E /* CodableCSV in Frameworks */ = {isa = PBXBuildFile; productRef = 77BD512926AC5A8300A6AB0E /* CodableCSV */; };
+		77BD512B26ACC5DD00A6AB0E /* stops.txt in Resources */ = {isa = PBXBuildFile; fileRef = 77AAA2BA247C7DE4009E9DD0 /* stops.txt */; };
+		77BD512D26AF089C00A6AB0E /* stops.csv in Resources */ = {isa = PBXBuildFile; fileRef = 77BD512C26AF089C00A6AB0E /* stops.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +85,7 @@
 		77AAA2BA247C7DE4009E9DD0 /* stops.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stops.txt; sourceTree = "<group>"; };
 		77AAA2BB247C7DE4009E9DD0 /* calendar.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = calendar.txt; sourceTree = "<group>"; };
 		77AAA2BC247C7DE4009E9DD0 /* routes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = routes.txt; sourceTree = "<group>"; };
+		77BD512C26AF089C00A6AB0E /* stops.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stops.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77BD512A26AC5A8300A6AB0E /* CodableCSV in Frameworks */,
 				22C21C4C247C7CC800957543 /* SwiftProtobuf in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,6 +210,7 @@
 		77AAA2B3247C7DE4009E9DD0 /* google_transit */ = {
 			isa = PBXGroup;
 			children = (
+				77BD512C26AF089C00A6AB0E /* stops.csv */,
 				77AAA2B4247C7DE4009E9DD0 /* transfers.txt */,
 				77AAA2B5247C7DE4009E9DD0 /* agency.txt */,
 				77AAA2B6247C7DE4009E9DD0 /* calendar_dates.txt */,
@@ -236,6 +242,7 @@
 			name = "Penn Station Track Chooser";
 			packageProductDependencies = (
 				22C21C4B247C7CC800957543 /* SwiftProtobuf */,
+				77BD512926AC5A8300A6AB0E /* CodableCSV */,
 			);
 			productName = "Penn Station Track Chooser";
 			productReference = 7726761A2468561F0064AE0C /* Penn Station Track Chooser.app */;
@@ -311,6 +318,7 @@
 			mainGroup = 772676112468561F0064AE0C;
 			packageReferences = (
 				22C21C4A247C7CC800957543 /* XCRemoteSwiftPackageReference "swift-protobuf" */,
+				77BD512826AC5A8300A6AB0E /* XCRemoteSwiftPackageReference "CodableCSV" */,
 			);
 			productRefGroup = 7726761B2468561F0064AE0C /* Products */;
 			projectDirPath = "";
@@ -340,6 +348,7 @@
 				77AAA2C3247C7DE4009E9DD0 /* stops.txt in Resources */,
 				77AAA2C4247C7DE4009E9DD0 /* calendar.txt in Resources */,
 				77AAA2C1247C7DE4009E9DD0 /* shapes.txt in Resources */,
+				77BD512D26AF089C00A6AB0E /* stops.csv in Resources */,
 				77AAA2C5247C7DE4009E9DD0 /* routes.txt in Resources */,
 				77267627246856220064AE0C /* Preview Assets.xcassets in Resources */,
 				77267624246856220064AE0C /* Assets.xcassets in Resources */,
@@ -350,6 +359,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77BD512B26ACC5DD00A6AB0E /* stops.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,7 +598,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 45JU49X5G4;
 				INFOPLIST_FILE = "Penn Station Track ChooserTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -610,7 +620,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 45JU49X5G4;
 				INFOPLIST_FILE = "Penn Station Track ChooserTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -714,6 +724,14 @@
 				version = 1.9.0;
 			};
 		};
+		77BD512826AC5A8300A6AB0E /* XCRemoteSwiftPackageReference "CodableCSV" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pauljohanneskraft/CodableCSV";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -721,6 +739,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 22C21C4A247C7CC800957543 /* XCRemoteSwiftPackageReference "swift-protobuf" */;
 			productName = SwiftProtobuf;
+		};
+		77BD512926AC5A8300A6AB0E /* CodableCSV */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 77BD512826AC5A8300A6AB0E /* XCRemoteSwiftPackageReference "CodableCSV" */;
+			productName = CodableCSV;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
